@@ -1,1 +1,18 @@
 /* Add your CSS code below */
+a {
+  font-weight: bold;
+  color: red;
+  text-decoration: none;
+}
+.message-time {
+  font-size: 0.9rem;
+}
+.message--unread {
+  border-left: 5px solid blue;
+}
+.message__time--old {
+  opacity: 0.3;
+}
+.message {
+  line-height: 35px;
+}
