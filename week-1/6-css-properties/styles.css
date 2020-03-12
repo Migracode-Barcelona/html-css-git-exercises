@@ -5,7 +5,7 @@
   font-weight: bold;
 }
 .link--gif {
-  color: red;
+  color: rgb(38, 155, 22);
   text-decoration: none;
   font-weight: bold;
 }
@@ -17,10 +17,10 @@ time {
   border-color: blue;
   border-width: 0.3rem;
 }
-.message {
-  opacity: 0.5;
+.message__time--old {
+  opacity: 0.2;
 }
 
 .message {
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
