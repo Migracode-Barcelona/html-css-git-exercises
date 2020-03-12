@@ -9,4 +9,8 @@
 .site-wrapper {
   height: 22.5rem;
   border: 1px solid rgb(243, 245, 243);
+  padding: 1rem;
+}
+.countries {
+  border-radius: 4px;
 }
