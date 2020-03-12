@@ -1,1 +1,26 @@
 /* Add your CSS code below */
+.link--map {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+.link--gif {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+time {
+  font-size: 0.9rem;
+}
+.message--unread {
+  border-style: none none none outset;
+  border-color: blue;
+  border-width: 0.3rem;
+}
+.message {
+  opacity: 0.5;
+}
+
+.message {
+  line-height: 1.5rem;
+}
