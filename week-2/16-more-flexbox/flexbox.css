@@ -14,4 +14,5 @@
 }
 .country--brazil {
   align-self: flex-end;
+  justify-content: center; /* this line dont work it*/
 }
