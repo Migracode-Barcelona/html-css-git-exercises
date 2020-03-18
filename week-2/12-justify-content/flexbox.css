@@ -10,7 +10,7 @@
 .countries--first {
   display: flex;
 
-  justify-content: center;
+  justify-content: flex-end;
 }
 .countries--second {
   display: flex;
