@@ -2,3 +2,27 @@
   display: flex;
 }
 /* Add your own CSS code below */
+.countries--first {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.countries--second {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+}
+.countries--third {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.countries--fourth {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: center;
+}
