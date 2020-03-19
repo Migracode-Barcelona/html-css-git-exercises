@@ -12,7 +12,62 @@
   justify-content: center;
   align-items: flex-end;
 }
-.country--brazil {
+.countries--second .country--brazil {
+  order: 5;
+}
+.countries--second .country--croatia {
+  order: 4;
+}
+.countries--second .country--laos {
+  order: 2;
+}
+.countries--second .country--uganda {
+  order: 1;
+}
+.countries--second .country--ethiopia {
+  order: 3;
+}
+
+.countries--third {
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.countries--third .country--brazil {
   align-self: flex-end;
-  justify-content: center; /* this line dont work it*/
+}
+
+.countries--fourth {
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.countries--fourth .country--ethiopia,
+.countries--fourth .country--laos {
+  align-self: center;
+}
+.countries--fifth {
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.countries--fifth .country--uganda {
+  align-self: center;
+}
+
+.countries--fifth .country--brazil {
+  order: 5;
+}
+.countries--fifth .country--croatia {
+  order: 4;
+}
+.countries--fifth .country--laos {
+  order: 1;
+}
+.countries--fifth .country--uganda {
+  order: 2;
+}
+.countries--fifth .country--ethiopia {
+  order: 3;
 }
