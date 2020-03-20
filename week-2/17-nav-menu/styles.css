@@ -1,1 +1,42 @@
 /* Write your media queries and flexbox CSS below */
+@media screen and (min-width: 992px) {
+  .site-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+/* .site-header__checkout {
+    display: flex;
+    justify-content: end;
+  }
+
+  .site-header__logo {
+    display: flex;
+    justify-content: flex-start
+  }
+}*/
+
+/*.site-header {
+  flex-direction: column;
+}
+.site-header__nav {
+  flex-direction: column;
+}
+.site-header__checkout {
+  justify-self: flex-start;
+}*/
+@media screen and (min-width: 480px) {
+  .site-header__nav {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 700px) {
+  .site-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
