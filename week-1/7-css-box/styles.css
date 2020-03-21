@@ -3,4 +3,21 @@
   border: 1px solid #4491db;
   border-radius: 4px;
   background: #fff;
+  padding: 2px 5px;
+}
+
+li {
+  padding: 2px 50px;
+}
+
+.country {
+  padding: 3px 40%;
+}
+
+.pages__showing {
+  padding-top: 0;
+}
+
+.pages {
+  padding: 10px;
 }
