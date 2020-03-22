@@ -1,1 +1,19 @@
 /* Add your CSS code below */
+a,
+.link--gif {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+.message--unread {
+  border-left: 4px solid blue;
+}
+.message__time {
+  font-size: 0.9rem;
+}
+.message__time--old {
+  opacity: 0.5;
+}
+.message__content {
+  line-height: 2rem;
+}

@@ -3,3 +3,51 @@
 }
 
 /* Add your own CSS code below */
+.countries--first {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.countries--second {
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.countries--third {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.countries--third .country--brazil {
+  align-self: flex-end;
+}
+
+.countries--fourth {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.country--ethiopia,
+.country--laos {
+  align-self: center;
+}
+
+.countries--fifth {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.countries--fifth .country--laos {
+  order: 1;
+  align-self: flex-end;
+}
+.countries--fifth .country--ethiopia {
+  align-self: flex-end;
+}
+
+.countries--fifth .country--uganda {
+  align-self: center;
+}
