@@ -1,9 +1,29 @@
 .countries {
   display: flex;
-}
-
-.countries--second .country {
-  padding: 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Add your own CSS code below */
+
+.countries--first {
+  padding: 15px 15px 15px 0px;
+  justify-content: flex-end;
+}
+.countries--second {
+  padding: 25px 25px 25px 25px;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.countries--third {
+  padding: 15px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: stretch;
+}
+.countries--fourth {
+  padding: 30px 20px 30px 20px;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  width: 500px;
+}

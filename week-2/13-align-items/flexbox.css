@@ -1,4 +1,29 @@
 .countries {
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
 }
 /* Add your own CSS code below */
+
+.countries--first {
+  align-items: center;
+  padding: 30px 50px 30px 20px;
+  width: 500px;
+}
+.countries--second {
+  align-items: flex-end;
+  padding: 15px 15px 15px 60px;
+  flex-direction: row-reverse;
+  width: 500px;
+}
+.countries--third {
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: baseline;
+  width: 500px;
+}
+.countries--fourth {
+  align-items: center;
+  flex-direction: column-reverse;
+  width: 500px;
+}

@@ -1,5 +1,72 @@
 .countries {
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Add your own CSS code below */
+
+.countries--first {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 68%;
+}
+.countries--second {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  width: 68%;
+}
+.countries--second .country--brazil {
+  order: 5;
+}
+.countries--second .country--croatia {
+  order: 4;
+}
+.countries--second .country--ethiopia {
+  order: 3;
+}
+.countries--second .country--laos {
+  order: 1;
+}
+
+.countries--third {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  width: 68%;
+}
+.countries--third .country--brazil {
+  align-self: flex-end;
+}
+
+.countries--fourth {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 565px;
+}
+.countries--fourth .country--ethiopia {
+  align-self: center;
+}
+.countries--fourth .country--laos {
+  align-self: center;
+}
+.countries--fifth {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 565px;
+}
+.countries--fifth .country--brazil {
+  order: 5;
+}
+.countries--fifth .country--croatia {
+  order: 4;
+}
+.countries--fifth .country--ethiopia {
+  order: 3;
+}
+.countries--fifth .country--uganda {
+  align-self: center;
+}
