@@ -1,1 +1,10 @@
-/* Add your own CSS code below */
+@media screen and (max-width: 768px) {
+  .countries {
+    columns: 2;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .countries {
+    columns: 3;
+  }
+}

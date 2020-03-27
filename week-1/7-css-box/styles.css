@@ -2,5 +2,13 @@
 .pages__page {
   border: 1px solid #4491db;
   border-radius: 4px;
+  margin: 1px;
   background: #fff;
+}
+.country {
+  padding: 15px;
+  margin: 10px;
+}
+.pages {
+  padding: 25px;
 }

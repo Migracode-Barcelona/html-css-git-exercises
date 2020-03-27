@@ -1,1 +1,4 @@
 /* Add your CSS below */
+.screenreader {
+  label: sizeS, sizeM, sizeL, sizeXL;
+}
