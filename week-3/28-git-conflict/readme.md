@@ -32,7 +32,7 @@ git checkout -b purple_links
 
 Now edit the `style.css` file and change the colour of the links in your messages to `fuchsia`. Check to see if the links have changed to a purple colour. If they have, then add and commit your changes.
 
-Before you can show your boss the purple colour, she calls you into her office. Customers of your messaging service are complaining about the orange links. Some say it is too bright and hard to read. She wants you to put aside your work on the purple links and set the links back to the original colour (`#4491db`) in the `master` branch immediately.
+Before you can show your boss the purple colour, she calls you into her office. Customers of your messaging service are complaining about the orange links that you added before. Some say it is too bright and hard to read. She wants you to put aside your work on the purple links and set the links back to the original colour (`#4491db`) in the `master` branch immediately.
 
 Make sure you are on the `master` branch:
 
@@ -42,9 +42,11 @@ git checkout master
 
 > _Hint: Run `git branch` in the terminal to make sure you're on the correct branch._
 
-Edit the `style.css` file and change the colour of the links in your messages to `#ff00ea`. Check to see if the links have changed to a purple colour. If they have, then add and commit your changes.
+Edit the `style.css` file and change the colour of the links in your messages back to their original colour, `#4491db`. Check to see if the links are blue again. If they are, then add and commit your changes. At this point, it also makes sense to push the master branch, to keep your boss happy!
 
-Phew! You have restored the blue links and customers have stopped complaining. The next day your boss decides she wants to launch the purple links. You can do this by merging your `purple_links` branch into master.
+Phew! You have restored the blue links and customers have stopped complaining.
+
+The next day your boss decides she wants to launch the purple links. You can do this by merging your `purple_links` branch into master.
 
 In [exercise 15](/week-2/15-git-merge) you merged a branch into `master` using GitHub. This time we'll do the same thing on the command line.
 
