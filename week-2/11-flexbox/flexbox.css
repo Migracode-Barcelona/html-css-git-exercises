@@ -1,1 +1,12 @@
 /* Add your own CSS code below */
+.countries--first {
+  display: flex;
+}
+.countries--second {
+  display: flex;
+  flex-direction: column;
+}
+.countries--third {
+  display: flex;
+  flex-direction: column;
+}
