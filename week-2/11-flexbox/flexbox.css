@@ -1,1 +1,15 @@
 /* Add your own CSS code below */
+.countries--first {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.countries {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.countries--third {
+  display: flex;
+  flex-direction: column-reverse;
+}

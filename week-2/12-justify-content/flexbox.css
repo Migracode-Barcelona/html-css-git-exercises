@@ -1,9 +1,30 @@
+* {
+  font-family: "Gill Sans", sans-serif;
+}
+
 .countries {
   display: flex;
 }
 
-.countries--second .country {
-  padding: 0.5em;
+.countries.countries--first {
+  justify-content: flex-end;
 }
 
-/* Add your own CSS code below */
+.countries.countries--second {
+  justify-content: space-between;
+}
+
+.countries.countries--second .country {
+  margin: 0px;
+  padding: 9px;
+}
+
+.countries--third {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.countries--fourth {
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
